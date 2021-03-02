@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.article {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.item img {
+  display: block;
+  margin: auto;
+}
+.slogan {
+  font-size: 4em;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #FFFF36;
+  text-align: center;
+}
+.shoe-3 .slogan {
+  color: #006913;
+}
+
+/* BACKGROUND COLORS */
+.shoe-1 {
+  background-color: #FF011A;
+}
+.shoe-2 {
+  background-color: #006913;
+}
+
+.shoe-3 {
+  background-color: #FFFF36;;
+}

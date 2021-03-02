@@ -15,7 +15,7 @@ body {
   height: 100vh;
   width: 100vw;
 }
-
+/* POSITIONING */
 .item {
   position: absolute;
   top: 50%;
@@ -23,11 +23,14 @@ body {
   transform: translate(-50%, -50%);
 }
 
+/* IMAGE */
 .item img {
   display: block;
   margin: auto;
   width: 100%;
 }
+
+/* TEXT */
 .slogan {
   font-size: 4vw;
   font-weight: 900;
@@ -35,6 +38,7 @@ body {
   color: #FFFF36;
   text-align: center;
 }
+
 #shoe-3 .slogan {
   color: #006913;
 }
@@ -52,7 +56,6 @@ body {
 }
 
 /* NAV SECTION */
-
 header {
   width: 100%;
 }
@@ -60,7 +63,6 @@ nav{
   position: fixed;
   top: 30px;
   right: 30px;
-  height: 100%;
   z-index: 3;
 }
 

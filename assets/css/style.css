@@ -40,11 +40,11 @@ body {
 .background-red {
   background-color: #FF011A;
 }
-.shoe-2 {
+.background-green {
   background-color: #006913;
 }
 
-.shoe-3 {
+.background-yellow {
   background-color: #FFFF36;;
 }
 
@@ -82,9 +82,9 @@ nav a {
   border-radius: 50%;
   color: black;
   background-color: #fff;
-  box-shadow: 1px 1px rgba(0,0,0,0.5);
 }
 
 nav a:active {
   background-color:grey;
+  box-shadow: 1px 1px rgba(0,0,0,0.5);
 }

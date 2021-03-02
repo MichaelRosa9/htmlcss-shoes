@@ -7,7 +7,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Rubik Mono One', sans-serif;
 }
 
 .article {
@@ -32,8 +32,7 @@ body {
 
 /* TEXT */
 .slogan {
-  font-size: 4vw;
-  font-weight: 900;
+  font-size: 3vw;
   text-transform: uppercase;
   color: #FFFF36;
   text-align: center;
